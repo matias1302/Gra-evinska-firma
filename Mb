@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="M.B.A. GRADNJA - Građevinska firma">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>M.B.A. GRADNJA</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="vijesti.html">Vijesti</a></li>
+                <li><a href="galerija.html">Galerija</a></li>
+                <li><a href="o_nama.html">O nama</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Dobrodošli na M.B.A. GRADNJA Stranicu</h1>
+        
+        <p>Gradimo budućnost zajedno! Naša građevinska firma posvećena je pružanju vrhunskih usluga u građevinskoj industriji.</p>
+        
+        <img src="gradjevinski-projekt.jpg" alt="Gradjevinski projekt">
+        <p>Specijaliziramo se za izgradnju visokokvalitetnih objekata prilagođenih vašim potrebama. Naša stručna ekipa i inovativni pristupi čine nas liderima u industriji.</p>
+
+        <section class="novosti">
+            <h2>Najnovije Vijesti</h2>
+            
+            <article>
+                <img src="vijest1.jpg" alt="Vijest 1">
+                <h3>Projekt X Započet</h3>
+                <p>Radujemo se najavi početka našeg najnovijeg projekta, Projekt X! Ovaj ambiciozan projekt predstavlja novi korak prema inovaciji i razvoju u građevinskoj industriji.</p>
+            </article>
+
+            <article>
+                <img src="vijest2.jpg" alt="Vijest 2">
+                <h3>Otvaranje Novog Ureda</h3>
+                <p>S ponosom najavljujemo otvaranje našeg novog ureda. Ovaj korak omogućuje nam još bolju podršku našim klijentima i zajednici. Posjetite nas i upoznajte naš tim!</p>
+            </article>
+
+            <article>
+                <img src="vijest3.jpg" alt="Vijest 3">
+                <h3>Nagrade za Kvalitetu</h3>
+                <p>Ponosni smo što smo osvojili nekoliko nagrada za izvrsnost u kvaliteti građevinskih projekata. Ovo je priznanje našeg predanog rada i posvećenosti visokim standardima.</p>
+            </article>
+        </section>
+
+        <section class="kontakt">
+            <h2>Kontaktirajte Nas</h2>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3132.9445677158723!2d15.977029315214715!3d45.81338857910332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475f050c5802ed5b%3A0x2ad5d2290a332d39!2sYour%20Construction%20Company!5e0!3m2!1sen!2sus!4v1641747586061!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            <form action="obrada_forme.php" method="post">
+                <label for="ime">Ime:</label>
+                <input type="text" id="ime" name="ime" required>
+
+                <label for="prezime">Prezime:</label>
+                <input type="text" id="prezime" name="prezime" required>
+
+                <label for="email">Email adresa:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="drzava">Država:</label>
+                <input type="text" id="drzava" name="drzava" required>
+
+                <label for="newsletter">Želim primati newsletter:</label>
+                <input type="checkbox" id="newsletter" name="newsletter">
+
+                <label for="poruka">Tijelo poruke:</label>
+                <textarea id="poruka" name="poruka" required></textarea>
+
+                <input type="submit" value="Pošalji">
+            </form>
+        </section>
+
+        <section class="o-nama">
+            <h2>O Nama</h2>
+            <h3>Gradimo S Vizijom</h3>
+            <p>Nasa građevinska firma posvećena je ostvarivanju vizije izvrsnosti u izgradnji. Sa stručnim timom i posvećenošću kvaliteti, gradimo projekte koji oblikuju budućnost.</p>
+            <p>Naša stručnost obuhvaća sve aspekte građevinske industrije, od planiranja do izvedbe. Partnerstvo s nama znači partnerstvo s pouzdanim izvođačem koji brine o vašim potrebama.</p>
+            <p>Zajedno gradimo temelje uspjeha, dosljednosti i inovacija. Naša misija je pružiti vrhunske građevinske usluge koje premašuju očekivanja klijenata.</p>
+        </section>
+
+        <section class="galerija">
+            <h2>Galerija</h2>
+
+            <!-- Prvi red slika -->
+            <div class="red-slika">
+                <img src="slika1.jpg" alt="Slika 1">
+                <p>Tekst koji je vezan za Sliku 1</p>
+                <img src="slika2.jpg" alt="Slika 2">
+                <p>Tekst koji je vezan za Sliku 2</p>
+            </div>
+
+            <!-- Drugi red slika -->
+            <div class="red-slika">
+                <img src="slika3.jpg" alt="Slika 3">
+                <p>Tekst koji je vezan za Sliku 3</p>
+                <img src="slika4.jpg" alt="Slika 4">
+                <p>Tekst koji je vezan za Sliku 4</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 M.B.A. GRADNJA. Sva prava pridržana.</p>
+    </footer>
+</body>
+</html>
