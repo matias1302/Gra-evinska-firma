@@ -97,7 +97,7 @@
                 <p>Tekst koji je vezan za Sliku 2</p>
             </div>
 
-            <!-- Drugi red slika -->
+        
             <div class="red-slika">
                 <img src="slika3.jpg" alt="Slika 3">
                 <p>Tekst koji je vezan za Sliku 3</p>
